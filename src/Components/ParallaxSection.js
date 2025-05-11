@@ -83,7 +83,7 @@ const ParallaxSection = () => {
           marginTop: '40vh',
         }}
       >
-        Parallax Scroll with Lenis + GSAP
+        Parallax Scroll with Lenis + GSAP good to know
       </h1>
     </div>
   )
