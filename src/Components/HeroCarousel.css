@@ -1,0 +1,70 @@
+.hero-carousel {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  height: 100vh;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-overlay {
+  
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 30px 50px;
+  /* background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); */
+  z-index: 2;
+  max-width: 90%;
+  
+}
+
+.carousel-overlay h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.carousel-overlay p {
+ font-size: 1.1rem;
+ font-family: 'Monsieur La Doulaise', cursive;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .carousel-overlay {
+    padding: 20px;
+  }
+
+  .carousel-overlay h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-overlay p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-overlay h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-overlay p {
+    font-size: 0.85rem;
+  }
+}

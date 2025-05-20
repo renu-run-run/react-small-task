@@ -1,0 +1,54 @@
+/* src/components/Gallery.css */
+.gallery-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+  font-family: 'Georgia', serif;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+.masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: 15px;
+  background-clip: padding-box;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card p {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+}

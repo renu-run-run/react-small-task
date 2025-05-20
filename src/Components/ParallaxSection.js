@@ -81,9 +81,13 @@ const ParallaxSection = () => {
           color: 'white',
           textAlign: 'center',
           marginTop: '40vh',
+          fontFamily: "'Monsieur La Doulaise',cursive", 
+          fontWeight: "lighter",
+          fontSize: "40px"
+
         }}
       >
-        Parallax Scroll with Lenis + GSAP good to know
+        Art is the way of living, Art is the way to be be Great
       </h1>
     </div>
   )
